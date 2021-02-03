@@ -27,3 +27,6 @@ Route::name('validar')->get('validar/',function () {
 
 Route::name('valor')->get('valor/',function () {
       return view('valor'); });
+
+Route::name('comprobar')->get('comprobar/',function () {
+      return view('comprobar'); });
